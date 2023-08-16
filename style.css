@@ -1,0 +1,32 @@
+html, body { 
+    height: 100px;
+    background-color:lightslategray;
+  } 
+
+header { 
+    background-color:cornflowerblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display:block;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    } 
+    header * {
+      display:inline-flex;
+    }
+
+
+footer {
+    background-color:cornflowerblue;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 100%;
+  }
