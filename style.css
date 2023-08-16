@@ -12,7 +12,7 @@ header {
     display:block;
     align-items: center;
     font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:sans-serif;
     text-align: center;
     } 
     header * {
