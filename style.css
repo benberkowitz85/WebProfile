@@ -10,10 +10,10 @@ header {
     right: 0;
     height: 70px;
     display:block;
-    align-items: center;
-    font-size: medium;
-    font-family:sans-serif;
-    text-align: center;
+    align-items:flex-start;
+    font-size: Medium;
+    font-family: sans-serif;
+    text-align: left;
     } 
     header * {
       display:inline-flex;
@@ -27,7 +27,7 @@ section-intro {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
+  width: 40%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -41,7 +41,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 12px;
   border:#015f3f;
   border-radius: 4px;
   cursor: pointer;
@@ -54,7 +54,7 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 container {
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #f2f2f29c;
 }
 
